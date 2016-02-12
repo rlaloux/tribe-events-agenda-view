@@ -11,15 +11,14 @@
 if ( ! defined( 'ABSPATH' ) ) 
      die('-1');
 
-if( !class_exists('Tribe_Events_Agenda_Template')){
-	class Tribe_Events_Agenda_Template extends Tribe_Template_Factory {
+if( ! class_exists('Tribe__Events__Agenda_Template')){
+	class Tribe__Events__Agenda_Template extends Tribe__Events__Template_Factory {
 
 		protected $body_class = 'tribe-events-agenda';
 
 		/**
 		 * Constructor
 		 *
-		 * @return void
 		 * @author Modern Tribe
 		 **/
 		public function __construct() {

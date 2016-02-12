@@ -17,7 +17,7 @@
 	 * @return string $permalink
 	 */
 	function tribe_get_agenda_permalink( $set_date = null ){
-          $tec = TribeEvents::instance();
+          $tec = Tribe__Events__Main::instance();
           $permalink = get_site_url() . '/' . $tec->rewriteSlug . '/agenda/';
           return $permalink;
 	}
